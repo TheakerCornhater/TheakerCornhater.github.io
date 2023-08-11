@@ -28,8 +28,9 @@
             <p class="paragraph2">This is a simple website created as an example.</p>
             <p class="paragraph2">This is a simple website created as an example.</p>
             <p class="paragraph2">This is a simple website created as an example.</p>
-            
-            <button id="colorButton">Change Text Color</button>
+            <!--
+                <button id="colorButton">Change Text Color</button>
+            -->
         </section>
     </main>
 
@@ -37,22 +38,26 @@
         <p>2023 My Basic Website. All rights reserved.</p>
     </footer>
 
-    <script>
-        document.getElementById("colorButton").addEventListener("click", function() {
-            const paragraphs = document.querySelectorAll("p");
-            paragraphs.forEach(paragraph => {
-                paragraph.style.color = getRandomColor();
+    <!--
+    
+        <script>
+            document.getElementById("colorButton").addEventListener("click", function() {
+                const paragraphs = document.querySelectorAll("p");
+                paragraphs.forEach(paragraph => {
+                    paragraph.style.color = getRandomColor();
+                });
             });
-        });
-
-        function getRandomColor() {
-            const letters = "0123456789ABCDEF";
-            let color = "#";
-            for (let i = 0; i < 6; i++) {
-                color += letters[Math.floor(Math.random() * 16)];
+    
+            function getRandomColor() {
+                const letters = "0123456789ABCDEF";
+                let color = "#";
+                for (let i = 0; i < 6; i++) {
+                    color += letters[Math.floor(Math.random() * 16)];
+                }
+                return color;
             }
-            return color;
-        }
-    </script>
+        </script>
+
+    -->
 </body>
 </html>
