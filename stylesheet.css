@@ -1,1 +1,10 @@
-
+.paragraph1 {
+  color: blue;
+  text-align: center;
+}
+.paragraph2 {
+  color: red;
+}
+p {
+  font-family: verdana;
+}
