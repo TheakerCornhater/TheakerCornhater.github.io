@@ -1,10 +1,8 @@
 function buttonWasClicked(){
-  document.getElementByClass("colorButton").addEventListener("click", function() {
-      const paragraphs = document.querySelectorAll("p");
-      paragraphs.forEach(paragraph => 
-        {paragraph.style.color = getRandomColor();}
-      );
-  });
+    const paragraphs = document.querySelectorAll("p");
+    paragraphs.forEach(function(paragraph){
+      paragraph.style.color = getRandomColor();
+    });
 }
 function getRandomColor() {
     const letters = "0123456789ABCDEF";
