@@ -1,5 +1,5 @@
 function buttonWasClicked(){
-    console.log("Da button was clickethed.");
+    //console.log("Da button was clickethed.");
     const paragraphs = document.querySelectorAll("p");
     paragraphs.forEach(function(paragraph){
       paragraph.style.color = getRandomColor();
