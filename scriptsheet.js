@@ -1,4 +1,5 @@
 function buttonWasClicked(){
+    const title = document.getElementByClassName(bigWords);
     const paragraphs = document.querySelectorAll("p");
     paragraphs.forEach(function(paragraph){
       paragraph.style.color = getRandomColor();
